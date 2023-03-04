@@ -95,7 +95,7 @@ public class Main2Activity extends AppCompatActivity implements UserAdapter.Item
                     }
                 });
     }
-
+// delete
     public void deleteUser(final User user){
         db.collection("Users").document(user.getId())
                 .delete()
